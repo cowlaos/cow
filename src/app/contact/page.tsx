@@ -10,17 +10,17 @@ export default function Contact() {
     message: ''
   });
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    alert('Thank you for your message! I\'ll get back to you soon.');
+    alert('Thank you for your message! I&apos;ll get back to you soon.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -32,8 +32,8 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm always interested in new opportunities and exciting projects. 
-            Whether you have a question or just want to say hi, I'd love to hear from you!
+            I&apos;m always interested in new opportunities and exciting projects. 
+            Whether you have a question or just want to say hi, I&apos;d love to hear from you!
           </p>
         </div>
 

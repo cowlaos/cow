@@ -45,7 +45,7 @@ export default function About() {
                 
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Hello! I'm a passionate full-stack developer with over 3 years of experience 
+                    Hello! I&apos;m a passionate full-stack developer with over 3 years of experience 
                     creating digital solutions that make a difference. My journey in tech started 
                     during my computer science studies, where I discovered my love for turning 
                     complex problems into elegant, user-friendly solutions.
@@ -59,7 +59,7 @@ export default function About() {
                   </p>
                   
                   <p>
-                    When I'm not coding, you can find me exploring new technologies, contributing 
+                    When I&apos;m not coding, you can find me exploring new technologies, contributing 
                     to open-source projects, or enjoying outdoor activities. I believe in continuous 
                     learning and am always excited to take on new challenges that push me to grow 
                     as a developer.

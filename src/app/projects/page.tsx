@@ -31,7 +31,7 @@ export default function Projects() {
             My Projects
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Here are some of the projects I've worked on. Each one represents a unique challenge 
+            Here are some of the projects I&apos;ve worked on. Each one represents a unique challenge 
             and showcases different aspects of my development skills.
           </p>
         </div>
