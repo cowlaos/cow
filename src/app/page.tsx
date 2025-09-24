@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { structuredData, websiteStructuredData } from '@/lib/seo';
 //UseTime
 // import UseTime from '@/components/ui/useTime';
 
@@ -62,7 +63,19 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteStructuredData),
+        }}
+      />
     </div>
   );
 }

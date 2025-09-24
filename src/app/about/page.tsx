@@ -1,3 +1,12 @@
+import { Metadata } from 'next';
+import { generateMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = generateMetadata(
+  'About - Furbom ງົວງົນ',
+  'Learn more about Furbom (ງົວງົນ) - Professional software developer with expertise in web development, React, Next.js, and modern technologies. Discover my journey and technical skills.',
+  '/cow-2.png'
+);
+
 export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-blue-900">

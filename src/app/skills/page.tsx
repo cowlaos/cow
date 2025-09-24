@@ -1,3 +1,12 @@
+import { Metadata } from 'next';
+import { generateMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = generateMetadata(
+  'Technical Skills - Furbom ງົວງົນ',
+  'Discover Furbom (ງົວງົນ) technical skills and expertise in web development, programming languages, frameworks, and modern technologies. Frontend, backend, and full-stack capabilities.',
+  '/cow-2.png'
+);
+
 export default function Skills() {
   const skillCategories = [
     {

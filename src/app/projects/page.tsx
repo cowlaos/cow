@@ -1,3 +1,12 @@
+import { Metadata } from 'next';
+import { generateMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = generateMetadata(
+  'Projects Portfolio - Furbom ງົວງົນ',
+  'Explore Furbom (ງົວງົນ) projects portfolio featuring innovative web applications, full-stack solutions, and cutting-edge development work. See live demos and technical implementations.',
+  '/cow-1.png'
+);
+
 export default function Projects() {
   const projects = [
     {

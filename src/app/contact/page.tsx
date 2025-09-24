@@ -1,6 +1,10 @@
 'use client';
 
 import { useState } from 'react';
+import { Metadata } from 'next';
+
+// Note: Since this is a client component, we'll add metadata via the layout or parent
+// For client components, consider creating a separate metadata export in a server component wrapper
 
 export default function Contact() {
   const [formData, setFormData] = useState({

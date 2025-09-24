@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://furbom.com/sitemap.xml
+
+# Block sensitive areas (if any)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /.*
+
+# Allow specific important paths
+Allow: /
+Allow: /about
+Allow: /projects  
+Allow: /skills
+Allow: /contact
+
+# Crawl delay (optional)
+Crawl-delay: 1

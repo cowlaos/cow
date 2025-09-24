@@ -1,0 +1,35 @@
+{
+  "name": "Furbom - ງົວງົນ Portfolio",
+  "short_name": "Furbom",
+  "description": "Furbom.com - ງົວງົນ professional portfolio showcasing innovative projects, technical skills, and development expertise",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/cow-1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/cow-2.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "screenshots": [
+    {
+      "src": "/cow-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}
